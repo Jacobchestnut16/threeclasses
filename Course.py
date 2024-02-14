@@ -10,3 +10,6 @@ class Course:
 
     def addEnrollment(self, enrollmentID):
         self.enrollmentIDS.append(enrollmentID)
+
+    def getEnrollmentIDs(self):
+        return self.enrollmentIDS
